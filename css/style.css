@@ -1,0 +1,35 @@
+body {
+     font-family: "Raleway", sans-serif;
+     overflow-x: hidden;
+     margin: 0;
+}
+h1 {
+     background-color: blueviolet;
+     color: white;
+     margin-top: 0;
+}
+#container {
+     background-image: url("../images/bg.avif");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 400px;
+     width: 100%;
+     color: white;
+}
+#container-2 {
+     height: 400px;
+     width: 90%;
+     color: white;
+     /* background-image: linear-gradient(to right, purple, orange); */
+     /* background-image: radial-gradient(circle, purple, orange); */
+     background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+     margin: 30px 15px 20px 25px; /* top right bottom left*/
+     padding: 20px 30px; 
+     border: 3px solid orange;
+     border-radius: 10px;
+     border-bottom-color: crimson;
+     border-top-style: dashed;
+}
+button {
+     margin-left: 20px;
+}
